@@ -51,8 +51,6 @@ else
    fg("Comment", grey_fg)
 end
 
-fg_bg("MatchParen", black, red)
-
 -- Disable cusror line
 cmd "hi clear CursorLine"
 -- Line number
@@ -70,10 +68,6 @@ bg("Pmenu", one_bg)
 bg("PmenuSbar", one_bg2)
 bg("PmenuSel", pmenu_bg)
 bg("PmenuThumb", nord_blue)
-fg("CmpItemAbbr", white)
-fg("CmpItemAbbrMatch", white)
-fg("CmpItemKind", white)
-fg("CmpItemMenu", white)
 
 -- misc
 fg("LineNr", grey)
@@ -131,7 +125,6 @@ fg("NvimTreeFolderName", folder_bg)
 fg("NvimTreeGitDirty", red)
 fg("NvimTreeIndentMarker", one_bg2)
 bg("NvimTreeNormal", darker_black)
-bg("NvimTreeNormalNC", darker_black)
 fg("NvimTreeOpenedFolderName", blue)
 fg("NvimTreeRootFolder", red .. " gui=underline") -- enable underline for root folder in nvim tree
 fg_bg("NvimTreeStatuslineNc", darker_black, darker_black)
