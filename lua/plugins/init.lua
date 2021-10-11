@@ -241,6 +241,8 @@ return packer.startup(function()
       end,
    }
 
+   use "Pocco81/TrueZen.nvim"
+
    use {
       "nvim-telescope/telescope.nvim",
       module = "telescope",
